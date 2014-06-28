@@ -9,7 +9,7 @@
  * @category PHP
  * @author   PANTUTS
  * @license  http://www.gnu.org/licenses/gpl.txt
- * @link     http://pantuts.com
+ * @link     http://www.pantuts.com
  */
 class AyeEmtract
 {
