@@ -57,7 +57,6 @@ class AyeEmtract
                     CURLOPT_USERAGENT => self::_setUserAgent(),
                     CURLOPT_HEADER => false,
                     CURLOPT_RETURNTRANSFER => true,
-                    CURLOPT_FOLLOWLOCATION => true,
                     CURLOPT_MAXREDIRS => 7,
                     CURLOPT_CONNECTTIMEOUT => 20,
                     CURLOPT_FRESH_CONNECT => true )
