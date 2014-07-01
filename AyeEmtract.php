@@ -137,7 +137,7 @@ class AyeEmtract
             'Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25',
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.13+ (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'
         );
-        $ua = array_rand($userAgents);
+        $ua = $userAgents[array_rand($userAgents)];
         return $ua;
     }
 }
